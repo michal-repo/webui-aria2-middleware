@@ -22,7 +22,7 @@ Enter the port:
 Fill RPC path with location where you put jsonrpc.php file, eg.:
 
 Enter the RPC path:
-`webui-aria2-middleware/jsonrpc.php`
+`/webui-aria2-middleware/jsonrpc.php`
 
 
 Fill rest of options as you configured your aria2c app.
