@@ -29,3 +29,12 @@ Fill rest of options as you configured your aria2c app.
 
 If you changed default port of aria2c or you running it in container you need to modify line 3 in jsonrpc.php file to correct value:
 `"localhost:6800/jsonrpc"`
+
+## Preserve webui-aria2 config
+If you want to preserve this configuration in `webui-aria2` you can edit app.js file and change line 172, filling RPC path:
+
+`path: "/webui-aria2-middleware/jsonrpc.php",`
+
+and line 173 filling port:
+
+`port: 443,`
